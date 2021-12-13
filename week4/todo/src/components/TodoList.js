@@ -7,7 +7,8 @@ function TodoList(props) {
             key={todo.id} 
             todo={todo}
             completeTodo={props.completeTodo}
-            deleteTodo={props.deleteTodo} />
+            deleteTodo={props.deleteTodo}
+             />
     })
 
     return (
